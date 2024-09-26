@@ -1,0 +1,172 @@
+/* styles.css */
+
+/* Import Manrope font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
+*{
+    font-family: 'Manrope', sans-serif; /* Applying Manrope font */
+}
+
+/* Basic resets */
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Common container styles */
+.container {
+    width: 80%; /* Responsive width */
+    max-width: 1200px; /* Max width */
+    margin: 20px auto; /* Center the container */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    margin: 20px 0;
+    color: #007bff; /* Optional color for headings */
+}
+
+/* Paragraph styles */
+p {
+    line-height: 1.6;
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button styles */
+button,
+input[type="submit"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="file"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Full width on smaller screens */
+    }
+
+    /* Adjust headings */
+    h1 {
+        font-size: 1.5em; /* Smaller font size */
+    }
+}
+.back-button {
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px; /* Spacing from the form */
+    padding: 10px 15px;
+    background-color: #6c757d; /* Gray background */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+}
+
+.logout-button {
+    background-color: #ff4d4d; /* Red background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for spacing */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow margin and padding */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Increase font size */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.logout-button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}
+
+
+
+table.dataTable thead th {
+    margin-top: 10px;
+    background-color: #f2f2f2;
+}
+.dataTables_wrapper .dataTables_length {
+    float: left;
+    margin-bottom: 30px;
+}
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+
